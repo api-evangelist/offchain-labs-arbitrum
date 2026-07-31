@@ -1,0 +1,58 @@
+generated: '2026-07-20'
+method: searched
+source: npm registry + crates.io (first-party OffchainLabs / @arbitrum packages)
+packages:
+  - language: typescript
+    registry: npm
+    name: "@arbitrum/sdk"
+    version: 4.1.0
+    url: https://www.npmjs.com/package/@arbitrum/sdk
+    install: npm install @arbitrum/sdk
+    description: TypeScript library for client-side interactions with Arbitrum (bridging, retryable tickets, gas estimation).
+    repository: https://github.com/OffchainLabs/arbitrum-sdk
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@arbitrum/orbit-sdk"
+    version: 0.26.0
+    url: https://www.npmjs.com/package/@arbitrum/orbit-sdk
+    install: npm install @arbitrum/orbit-sdk
+    description: TypeScript SDK for configuring and deploying Arbitrum (Orbit) chains and their core contracts.
+    repository: https://github.com/OffchainLabs/arbitrum-orbit-sdk
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@arbitrum/nitro-contracts"
+    url: https://www.npmjs.com/package/@arbitrum/nitro-contracts
+    install: npm install @arbitrum/nitro-contracts
+    description: Smart contracts powering Arbitrum Nitro (rollup, bridge, sequencer inbox, precompiles).
+    repository: https://github.com/OffchainLabs/nitro-contracts
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@arbitrum/token-bridge-contracts"
+    version: 1.2.5
+    url: https://www.npmjs.com/package/@arbitrum/token-bridge-contracts
+    install: npm install @arbitrum/token-bridge-contracts
+    description: Contracts implementing the canonical Arbitrum token bridge (gateways, gateway router).
+    repository: https://github.com/OffchainLabs/token-bridge-contracts
+    official: true
+  - language: rust
+    registry: crates.io
+    name: stylus-sdk
+    version: 0.10.8
+    url: https://crates.io/crates/stylus-sdk
+    install: cargo add stylus-sdk
+    description: Rust SDK for writing EVM-compatible smart contracts on Arbitrum Stylus.
+    repository: https://github.com/OffchainLabs/stylus-sdk-rs
+    official: true
+  - language: rust
+    registry: crates.io
+    name: cargo-stylus
+    version: 0.10.8
+    url: https://crates.io/crates/cargo-stylus
+    install: cargo install cargo-stylus
+    description: CLI tool (cargo subcommand) for building, checking, and deploying Stylus contracts on Arbitrum chains.
+    repository: https://github.com/OffchainLabs/stylus-sdk-rs
+    official: true
+    is_cli: true

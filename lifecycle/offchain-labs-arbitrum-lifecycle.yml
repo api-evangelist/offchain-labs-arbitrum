@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.arbitrum.io + https://github.com/OffchainLabs/nitro/releases + https://status.arbitrum.io
+versioning:
+  scheme: semver
+  component: arbitrum-nitro
+  current: v3.11.2
+  arbos: '61'
+  docs: https://github.com/OffchainLabs/nitro/releases
+  notes: >-
+    Two release tracks: Nitro node software (semver) and consensus/ArbOS
+    upgrades (consensus-vNN) which are governance-gated and change the
+    state-transition function.
+status_page: https://status.arbitrum.io/
+sla:
+  url: null
+  notes: Public L2 network; no per-user uptime SLA is published. Operational status is on the status page.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: >-
+    No REST/HTTP deprecation policy (no REST API surface). Protocol-level
+    changes ship via ArbOS/consensus upgrades announced in release notes and
+    governed via Arbitrum DAO on-chain governance.

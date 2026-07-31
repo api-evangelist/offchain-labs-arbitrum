@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/OffchainLabs/nitro/releases
+scheme: semver
+component: arbitrum-nitro
+current_version: v3.11.2
+docs: https://github.com/OffchainLabs/nitro/releases
+notes: >-
+  Arbitrum's node software (Nitro) is released on GitHub. Node releases are
+  semver-tagged; consensus/ArbOS upgrades ("consensus-vNN") are a separate,
+  governance-gated track that can change the state-transition function.
+entries:
+  - version: v3.11.2
+    date: '2026-07-06'
+    type: optional
+    highlights: Patch release on the ArbOS 61 line.
+  - version: v3.11.1
+    date: '2026-06-29'
+    type: optional
+    highlights: Patch release on the ArbOS 61 line.
+  - version: v3.11.0
+    date: '2026-06-22'
+    type: optional
+    breaking: false
+    highlights: Adds support for ArbOS 61 and enhanced transaction filtering.
+  - version: consensus-v61
+    date: '2026-06-30'
+    type: consensus
+    breaking: true
+    highlights: Consensus/ArbOS 61 module release (governance-gated state-transition upgrade).

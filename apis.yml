@@ -1,9 +1,29 @@
 aid: offchain-labs-arbitrum
 name: Offchain Labs (Arbitrum)
-description: 'Offchain Labs (Arbitrum) is a company surfaced as a portfolio company of pantera-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Offchain Labs is the team behind Arbitrum, a suite of Ethereum Layer 2 scaling
+  technologies (Arbitrum One and Arbitrum Nova) built on the Nitro tech stack and
+  the AnyTrust and Rollup protocols. Rather than a traditional REST API, Arbitrum
+  exposes an Ethereum-compatible JSON-RPC interface plus Arbitrum-specific
+  precompiles and the NodeInterface, and ships first-party developer tooling: the
+  TypeScript Arbitrum SDK for bridging and cross-chain messaging, the Orbit SDK
+  for launching custom Arbitrum chains, and the Stylus SDK (Rust/Wasm) with the
+  cargo-stylus CLI for writing EVM-compatible smart contracts. This profile was
+  seeded as a pantera-capital portfolio lead and enriched from Arbitrum's public
+  developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/offchain-labs-arbitrum/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/OffchainLabs.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Blockchain
+- Ethereum
+- Layer 2
+- Rollup
+- Web3
+- Smart Contracts
+- Developer Tools
+- Stylus
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,40 @@ maintainers:
 common:
 - type: Website
   url: https://offchainlabs.com/
+- type: DeveloperPortal
+  url: https://docs.arbitrum.io/
+- type: Documentation
+  url: https://docs.arbitrum.io/
+- type: APIReference
+  url: https://docs.arbitrum.io/arbitrum-essentials/arbitrum-vs-ethereum/rpc-methods
+- type: GettingStarted
+  url: https://docs.arbitrum.io/build-decentralized-apps/quickstart-solidity-remix
+- type: GitHubOrganization
+  url: https://github.com/OffchainLabs
+- type: Blog
+  url: https://blog.arbitrum.io/
+- type: StatusPage
+  url: https://status.arbitrum.io/
+- type: LLMsTxt
+  url: llms/offchain-labs-arbitrum-llms.txt
+- type: Packages
+  url: packages/offchain-labs-arbitrum-packages.yml
+- type: SDKs
+  url: packages/offchain-labs-arbitrum-packages.yml
+- type: CLI
+  url: cli/offchain-labs-arbitrum-cli.yml
+- type: ChangeLog
+  url: changelog/offchain-labs-arbitrum-changelog.yml
+- type: Lifecycle
+  url: lifecycle/offchain-labs-arbitrum-lifecycle.yml
+- type: DomainSecurity
+  url: security/offchain-labs-arbitrum-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/offchain-labs-arbitrum-vulnerability-disclosure.yml
+- type: Security
+  url: https://immunefi.com/bug-bounty/arbitrum/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1

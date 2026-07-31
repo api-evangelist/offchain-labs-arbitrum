@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of /.well-known/* on offchainlabs.com + docs.arbitrum.io
+notes: >-
+  No /.well-known discovery documents are published. Arbitrum exposes JSON-RPC
+  endpoints (Ethereum-compatible) rather than an authenticated REST API surface,
+  so OIDC/OAuth discovery and api-catalog documents are not applicable.
+hosts:
+  - host: https://offchainlabs.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://docs.arbitrum.io
+    documents:
+      - path: /.well-known/security.txt
+        status: 404

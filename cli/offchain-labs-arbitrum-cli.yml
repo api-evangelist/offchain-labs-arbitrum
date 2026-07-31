@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://crates.io/crates/cargo-stylus + https://docs.arbitrum.io/stylus/quickstart
+cli:
+  name: cargo-stylus
+  description: Cargo subcommand for developing, checking, and deploying Arbitrum Stylus (Rust/Wasm) smart contracts.
+  version: 0.10.8
+  binary: cargo-stylus
+  install:
+    - method: cargo
+      command: cargo install cargo-stylus
+    - method: source
+      command: git clone https://github.com/OffchainLabs/stylus-sdk-rs && cargo install --path .
+  repository: https://github.com/OffchainLabs/stylus-sdk-rs
+  docs: https://docs.arbitrum.io/stylus/quickstart
+  commands:
+    - name: new
+      summary: Scaffold a new Stylus (Rust) smart-contract project.
+    - name: check
+      summary: Dry-run compile and validate a contract against a Stylus-enabled chain before deploying.
+    - name: deploy
+      summary: Compile to Wasm, activate, and deploy the contract onchain.
+    - name: export-abi
+      summary: Export the Solidity-compatible ABI for the contract.
+    - name: cache
+      summary: Manage the Stylus contract cache (bid / status) to reduce activation costs.
+    - name: verify
+      summary: Verify that a deployed contract matches local source.
