@@ -12,6 +12,17 @@ description: >-
   seeded as a pantera-capital portfolio lead and enriched from Arbitrum's public
   developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/offchain-labs-arbitrum/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
