@@ -12,8 +12,15 @@
       "source": "https://blog.arbitrum.io/",
       "feed_url": "https://blog.arbitrum.io/rss/",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "discovered"
+    },
+    {
+      "source": "https://blog.arbitrum.io/rss/",
+      "feed_url": "https://blog.arbitrum.io/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://github.com/OffchainLabs",
@@ -23,6 +30,6 @@
       "method": "none"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 15,
+  "fetched": "2026-10-17T14:53:57Z"
 }
